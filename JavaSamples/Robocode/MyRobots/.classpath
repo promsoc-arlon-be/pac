@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/robocode.jar" sourcepath="/home/pva/robocode/javadoc">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/home/pva/robocode/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/robocode.testing.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/robocode.sound-1.9.3.9.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/robocode.ui-1.9.3.9.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/robocode.ui.editor-1.9.3.9.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/robocode.repository-1.9.3.9.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/robocode.host-1.9.3.9.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/robocode.battle-1.9.3.9.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/bcel-6.2.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/codesize-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/picocontainer-2.14.2.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/roborumble.jar"/>
+	<classpathentry kind="lib" path="/home/pva/robocode/libs/robocode.core-1.9.3.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
