@@ -1,7 +1,10 @@
+import robocode.HitRobotEvent;
+import robocode.HitWallEvent;
 import robocode.Robot;
 import robocode.ScannedRobotEvent;
 
 public class PhilRobot extends Robot {
+	boolean movingForward;
 
 	public void run() {
 
@@ -22,12 +25,12 @@ public class PhilRobot extends Robot {
 			ahead(100);
 			turnLeft(90.0);
 		}
-
 	}
 
+	/**
+	 * onScannedRobot: Fire!
+	 */
 	public void onScannedRobot(ScannedRobotEvent e) {
-
 		fire(1);
-
 	}
 }
