@@ -2,8 +2,9 @@
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Clock cl = new Clock();
+		cl.displayFormat("12");
+		cl.setTime("2.05 pm");
 	}
 
 }
