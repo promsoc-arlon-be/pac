@@ -14,7 +14,7 @@ public class Clock {
 	public void start() {
 		stopped = false;
 		while(!stopped) {
-			Thread.sleep(1000);
+			//Thread.sleep(1000);
 			nextSecond();
 		}
 	}
@@ -74,3 +74,5 @@ public class Clock {
 		clearScreen();
 		displayFormat(24);
 	}
+	
+}
