@@ -69,9 +69,13 @@ public class AlarmClock extends Clock {
 	
 	 public void nextSecond() {
 	  
-	  	// super.nextSecond; 
+	  	super(); 
 	 
-	  	// ifTrue(Time = alarmTime){ }
+	  	if(Time = alarmTime){ 
+	  		for (int i = 1; i <= 3; i++) {
+	  			System.out.println("BIP BIP!");
+	  		}
+	  	}
 	 }
 
 }
