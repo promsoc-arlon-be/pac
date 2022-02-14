@@ -44,29 +44,9 @@ public class Clock {
 	}
 	
 	public void nextSecond() {
-		if(this.time.seconds < 59) {
-			this.time.seconds += 1;
-		}
-		else if(this.time.seconds == 59) {
-			
-			this.time.seconds = 0;
-			
-			if(this.time.minutes < 59) {
-				this.time.minutes += 1;
-			}
-			else if(this.time.minutes == 59) {
-				
-				this.time.minutes = 0;
-				
-				if(this.time.hours < 23) {
-					this.time.hours += 1;
-				}
-				else if(this.time.hours == 24) {
-					this.time.hours = 1;
-				}
-			}
-		}
+		time.nextSecond();	
 		displayFormat(24);
+		
 	}
 	
 }
