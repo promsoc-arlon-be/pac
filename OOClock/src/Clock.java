@@ -2,10 +2,11 @@
 public class Clock {
 
 	boolean displayFormat;
-	Time time = new Time();
+	Time time;
 
 	public Clock() {
-		
+		this.time = new time();
+		this.time.hours = this.time.minutes = this.time.seconds = 0;
 	}
 	
 	public void start() {
@@ -14,6 +15,9 @@ public class Clock {
 	
 	public void stop() {
 		
+	}
+	public void showTime() {
+		System.outprintln("Il est actuellement " + this.time.hours + ":" + this.time.minutes + ":" + this.time.seconds);
 	}
 	
 	public void setTime(int hours, int minutes, int seconds) {
