@@ -62,15 +62,14 @@ public class AlarmClock extends Clock {
 		return alarmTime;
 	}
 
-	public void setAlarmTime(Time alarmTime) {
-		this.alarmTime = alarmTime;
-		// conseillé String ???
+	public void setAlarmTime(int hours, int minutes, int seconds) {
+		this.alarmTime.hours = hours;
+		this.alarmTime.minutes = minutes;
+		this.alarmTime.seconds = seconds;
 	}
 	
 	 public void nextSecond() {
-	  
 	  	super(); 
-	 
 	  	if(Time = alarmTime){ 
 	  		for (int i = 1; i <= 3; i++) {
 	  			System.out.println("BIP BIP!");
