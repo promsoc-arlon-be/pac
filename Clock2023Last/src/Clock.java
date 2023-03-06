@@ -50,9 +50,9 @@ public class Clock {
 		
 		/*----- Procedure setting time ------*/
 		public void setTime(int hours, int minutes, int seconds) {
-			this.time.hour = hours;
-			this.time.minute = minutes;
-			this.time.second = seconds;
+			this.time.hour = hour;
+			this.time.minute = minute;
+			this.time.second = second;
 		}
 		
 		/*----- Procedure changement de seconde*/
