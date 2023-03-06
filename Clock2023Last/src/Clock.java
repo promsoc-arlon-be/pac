@@ -12,7 +12,7 @@ public class Clock {
 		
 		public Clock(){
 			this.time = new Time();
-			this.time.hours = this.time.minutes = this.time.seconds = 0;
+			this.time.hour = this.time.minute = this.time.second = 0;
 		}
 		
 		/*----- Procedure start -----
@@ -37,7 +37,7 @@ public class Clock {
 		 * @param value integer
 		 * */
 		public void displayFormat(int value) {
-			Hour = this.time.hours;
+			Hour = this.time.hour;
 			if (value == 12) {
 				if (Hour == 24) {
 					Hour = 0;
@@ -45,14 +45,14 @@ public class Clock {
 					Hour = Hour - 12;
 				}
 			}
-			System.out.println("Actual time is:  " + Hour + ":" + this.time.minutes + ":" + this.time.seconds);
+			System.out.println("Actual time is:  " + Hour + ":" + this.time.minute + ":" + this.time.second);
 		}
 		
 		/*----- Procedure setting time ------*/
 		public void setTime(int hours, int minutes, int seconds) {
-			this.time.hours = hours;
-			this.time.minutes = minutes;
-			this.time.seconds = seconds;
+			this.time.hour = hours;
+			this.time.minute = minutes;
+			this.time.second = seconds;
 		}
 		
 		/*----- Procedure changement de seconde*/
