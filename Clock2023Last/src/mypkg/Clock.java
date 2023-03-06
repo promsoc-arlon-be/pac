@@ -18,7 +18,7 @@ public class Clock {
 		}
 		
 		/*----- Procedure start -----
-		 * setting bollean stop as false
+		 * setting boolean stop as false
 		 * working until stop became true
 		 * */
 		public void start() {
@@ -29,7 +29,7 @@ public class Clock {
 		}
 		
 		/*----- Procedure stop -----
-		 * setting bollean stop as true
+		 * setting boolean stop as true
 		 * */
 		public void stop() {
 			stop = true;
