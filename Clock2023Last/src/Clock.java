@@ -12,8 +12,15 @@ public class Clock {
 	/*---- Constructor ----*/
 
 	public Clock() {
-		this.time = new Time();
-		this.time.hour = this.time.minute = this.time.second = 0;
+		this.time = new Time();	
+	}
+	
+	public Clock(Time t) {
+		this.time = t;	
+	}
+
+	public Clock(int a, int b, int c) {
+		time = new Time (a,b,c);
 	}
 
 	/*----- Procedure start -----

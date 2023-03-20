@@ -5,6 +5,17 @@ public class Time {
 	int minute;
 	int hour;
 
+	public Time() {
+		super();
+		hour = minute = second = 0;
+	}
+	public Time(int hour,int minute, int seconde) {
+		super();
+		this.hour = hour;
+		this.minute = minute;
+		this.second = seconde;
+	}
+
 	public void nextSecond() {
 		if (second < 59)
 			second += 1;
@@ -35,5 +46,11 @@ public class Time {
 			hour = 0;
 			nextSecond();
 		}
+	}
+	public boolean compare(Time t) {
+		if(t.hour != this.hour)return false;
+		if(t.minute != this.minute)return false;
+		if(t.second != this.second)return false;
+		return true;
 	}
 }
